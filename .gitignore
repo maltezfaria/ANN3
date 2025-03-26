@@ -17,4 +17,5 @@ projects/
 supplementary-material/
 .markdownlint.json
 .vscode
-homeworks
+homeworks/2024_ANN203_tp0.jl
+homeworks/ANN3_tp1_solved.jl

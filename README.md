@@ -14,7 +14,7 @@ will fill it in with your solutions and submit the notebook for grading. Code ca
 directly in the notebooks.
 
 The main reference for the course are the lecture notes by Marc Bonnet, available
-[here](https://hal.science/hal-03321502v2). I will post slight modifications of these notes
+[here](https://hal.science/hal-03321502v2/file/aln.pdf). I will post slight modifications of these notes
 as we go along, but the main content will be the same.
 
 ## Grading
@@ -59,7 +59,7 @@ The last step is to load the homework assignment. Either download the homework a
 path to the downloaded file in *Pluto*, or copy and paste the following URL on the **Open a
 notebook** window and press `Open`:
 
-<https://github.com/maltezfaria/ANN203/blob/main/ANN203_tp0.jl>
+<https://github.com/maltezfaria/ANN3/blob/main/homeworks/ANN3_tp1.jl>
 
 That should load the notebook for the `TP0` in a *safe preview* mode. To execute the content of the notebook, you will need to give *Pluto* permission to run some code.
 
@@ -75,23 +75,19 @@ that may help you get started translating code.
 
 ## Workflows and `Pluto.jl`
 
-As you will notice in your first assignment, the homework for this class is
-available both in the form of a *static* HTML file (which you can open in any
-browser) and in the form of a `Pluto` notebook.
+As you will notice in your first assignment, the homework for this class is available in the
+form of a `Pluto` notebook. `Pluto`(https://github.com/fonsp/Pluto.jl) provides a
+notebook-like environment for combining `Julia` with pretty text that can easily be rendered
+on a website, and you can think of it as a web-based *workflow* for developing code (similar
+to e.g. *Jupyter* notebooks if you have heard of those). While in general I don't recommend
+using `Pluto` for coding anything long or complex, most of the code you will write in this
+class is simple enough that using `Pluto` as a *web-based*
+[IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) may be a viable
+option. My suggestion is to give it a try to see if it fits you.
 
-[`Pluto`](https://github.com/fonsp/Pluto.jl) provides a notebook-like
-environment for combining `Julia` with pretty text that can easily be rendered
-on a website, and you can think of it as a web-based *workflow* for developing
-code (similar to e.g. *Jupyter* notebooks if you have heard of those). While in
-general I don't recommend using `Pluto` for coding anything long or complex,
-most of the code you will write in this class is simple enough that using
-`Pluto` as a *web-based*
-[IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) may be a
-viable option. My suggestion is to give it a try to see if it fits you.
-
-Should you find yourself hating `Pluto.jl` (and missing `matlab`), I suggest you
-try [Visual Studio Code](https://code.visualstudio.com) with its [julia
-extension](https://code.visualstudio.com/docs/languages/julia) to have an
-*out-of-the-box* experience as similar to `matlab` as possible. Keep in mind
-that I still expect you to submit your code as a `Pluto` notebook, but you can
-always just copy and paste the code to `Pluto` after you get it to work.
+Should you find yourself hating `Pluto.jl` (and missing `matlab`), I suggest you try [Visual
+Studio Code](https://code.visualstudio.com) with its [julia
+extension](https://code.visualstudio.com/docs/languages/julia) to have an *out-of-the-box*
+experience as similar to `matlab` as possible. Keep in mind that I still expect you to
+submit your code as a `Pluto` notebook, but you can always just copy and paste the code to
+`Pluto` after you get it to work.
